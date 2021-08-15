@@ -6,7 +6,7 @@ import Footer from "./Footer.js";
 import { useStaticQuery, graphql } from "gatsby";
 
 import "normalize.css";
-// import "../assets/css/main.css";
+import "../assets/css/main.css";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

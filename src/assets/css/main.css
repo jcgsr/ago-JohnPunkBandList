@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Special+Elite&display=swap");
 /* RESET */
 *,
 ::after,
@@ -17,18 +18,234 @@
   --primary: #0e0d0d;
   --secondary: #393a41;
   --terciary: #dcdde7;
+  --fourth: #0b0e0a;
   --shadow-1: 1px 1px 10px rgba(255, 255, 255, 0.4);
 
   --shadow-2: 2px 2px 2px rgba(80, 80, 80, 0.4);
   --shadow-3: 0 0 30px rgba(20, 20, 20, 0.4);
   /* COLORS */
 
-  /* TYPOGRAPHY */
-  --letterspacing: 1px;
-  --fontsizing-1: 3rem;
-  /* TYPOGRAPHY */
   /* REST */
   --transition: 0.3s ease-in-out all;
-  --b-radius: 5px;
   /* REST */
 }
+
+/* TAGS */
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+  line-height: 1.75;
+  font-family: "Special Elite", cursive;
+}
+h1,
+h2 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  text-shadow: var(--shadow-3);
+}
+main h1 {
+  text-shadow: 1px 1px 1px var(--terciary);
+  font-family: "Creepster", cursive;
+}
+
+button,
+.btn {
+  cursor: pointer;
+  color: var(--terciary);
+  background: var(--primary);
+  border: none;
+  padding: 0.75rem;
+  box-shadow: var(--shadow-1);
+  transition: var(--transition);
+  text-transform: capitalize;
+}
+button:hover,
+.btn:hover {
+  background: var(--terciary);
+  color: var(--primary);
+  box-shadow: var(--shadow-3);
+}
+hr {
+  border-top: 1px solid var(--primary);
+  margin: 1rem;
+}
+
+footer {
+  text-align: center;
+  height: 6rem;
+  padding: 1rem;
+  background-color: var(--terciary);
+}
+/* TAGS */
+/* CLASSES */
+
+.container {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(4100px, 1fr));
+  gap: 1rem;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.bands {
+  width: 80%;
+  color: var(--terciary);
+  text-align: center;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: var(--secondary);
+  box-shadow: var(--shadow-1);
+  border-radius: 5px;
+}
+.bands p {
+  max-width: 70%;
+  margin: 1rem auto;
+}
+
+@media screen and (max-width: 767px) {
+  .bands {
+    width: 95%;
+  }
+  .bands p {
+    max-width: 90%;
+  }
+  .btns {
+    flex-direction: column;
+  }
+  .btns button {
+    margin-bottom: 0.8rem;
+    width: 50%;
+  }
+}
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+/* CLASSES */
+
+/* NAVBAR  */
+
+.navbar {
+  background-color: var(--fourth);
+  box-shadow: var(--shadow-1);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  max-width: 1500px;
+}
+
+.nav-logo {
+  color: var(--terciary);
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  flex-grow: 1;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  color: var(--terciary);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  border-bottom: 3px solid transparent;
+}
+.fa-code {
+  margin-left: 1rem;
+}
+
+.nav-item {
+  line-height: 40px;
+  margin-right: 1rem;
+}
+
+.nav-item:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.nav-item:hover:after {
+  width: 100%;
+  background: var(--terciary);
+}
+
+.nav-item .active {
+  color: var(--terciary);
+  border: 1px solid var(--terciary);
+}
+
+.nav-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid #fff;
+    position: absolute;
+    top: 80px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: var(--fourth);
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .nav-item .active {
+    color: var(--terciary);
+    border: none;
+  }
+  .nav-links {
+    padding: 1.5rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--terciary);
+  }
+}
+/* NAVBAR  */

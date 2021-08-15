@@ -8,9 +8,9 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "John's Ultimate Punk Bands List",
-    description:
-      "Site que reúne as bandas prediletas de Lebrão Johns",
+    description: "Site que reúne as bandas prediletas de Lebrão Johns",
     siteUrl: "https://www.englisheasyfm.com.br",
+  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,

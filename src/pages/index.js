@@ -4,36 +4,44 @@ import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
 
-import Layout from "./components/Layout";
+import Layout from "../components/Layout";
 
 const John = () => (
   <Layout>
-    <h1>john</h1>
-    <StaticQuery
-      query={query}
-      render={data => (
-        <ul>
-          {data.allStrapiBand.nodes.map(node => (
-            <li key={node.id}>
-              {node.band_name}
-              <a href={node.youtube} target="_blank">
-                youtube
-              </a>
-              <a href={node.wikipedia} target="_blank">
-                wikipedia
-              </a>
-              <a href={node.band_site} target="_blank">
-                <button>site oficial</button>
-              </a>
-              <GatsbyImage
-                image={node.band_img.localFile.childImageSharp.gatsbyImageData}
-                alt={node.band_name}
-              />
-            </li>
-          ))}
-        </ul>
-      )}
-    />
+    <main className="container">
+      <h1>john's ultimate punk bands list</h1>
+      <StaticQuery
+        query={query}
+        render={data => (
+          <div className="bands">
+            {data.allStrapiBand.nodes.map(node => (
+              <article key={node.id}>
+                <h2>{node.band_name}</h2>
+                <GatsbyImage
+                  image={
+                    node.band_img.localFile.childImageSharp.gatsbyImageData
+                  }
+                  alt={node.band_name}
+                />
+                <p>{node.band_desc}</p>
+                <div className="btns">
+                  <a href={node.band_site} target="_blank">
+                    <button>site oficial</button>
+                  </a>
+                  <a href={node.youtube} target="_blank">
+                    <button>youtube</button>
+                  </a>
+                  <a href={node.wikipedia} target="_blank">
+                    <button>wikipedia</button>
+                  </a>
+                </div>
+                <hr />
+              </article>
+            ))}
+          </div>
+        )}
+      />
+    </main>
   </Layout>
 );
 
@@ -44,12 +52,7 @@ const query = graphql`
         band_img {
           localFile {
             childImageSharp {
-              gatsbyImageData(
-                placeholder: BLURRED
-                layout: CONSTRAINED
-                width: 200
-                height: 200
-              )
+              gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
             }
           }
         }
@@ -58,6 +61,7 @@ const query = graphql`
         wikipedia
         band_site
         id
+        band_desc
       }
     }
   }
