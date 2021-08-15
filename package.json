@@ -1,0 +1,37 @@
+{
+  "name": "John Ultimate Punk Bands List",
+  "private": true,
+  "description": "Lista de bandas punk de John",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^3.11.1",
+    "gatsby-plugin-image": "^1.11.0",
+    "gatsby-plugin-sharp": "^3.11.0",
+    "gatsby-source-filesystem": "^3.11.0",
+    "gatsby-source-strapi": "^1.0.2",
+    "gatsby-transformer-sharp": "^3.11.0",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

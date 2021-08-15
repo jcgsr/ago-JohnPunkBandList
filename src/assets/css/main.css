@@ -1,0 +1,34 @@
+/* RESET */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  /* COLORS */
+  --primary: #0e0d0d;
+  --secondary: #393a41;
+  --terciary: #dcdde7;
+  --shadow-1: 1px 1px 10px rgba(255, 255, 255, 0.4);
+
+  --shadow-2: 2px 2px 2px rgba(80, 80, 80, 0.4);
+  --shadow-3: 0 0 30px rgba(20, 20, 20, 0.4);
+  /* COLORS */
+
+  /* TYPOGRAPHY */
+  --letterspacing: 1px;
+  --fontsizing-1: 3rem;
+  /* TYPOGRAPHY */
+  /* REST */
+  --transition: 0.3s ease-in-out all;
+  --b-radius: 5px;
+  /* REST */
+}
