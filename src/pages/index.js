@@ -1,15 +1,17 @@
 // 14.08.2021 - lista de bandas punk de lebrão johns
 
-import React from "react";
+import React, { useState } from "react";
 import { StaticQuery, graphql } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
+import SearchBar from "../components/Search";
 
 const John = () => (
   <Layout>
     <main className="container">
       <h1>john's ultimate punk bands list</h1>
+      <SearchBar />
       <StaticQuery
         query={query}
         render={data => (

@@ -76,6 +76,11 @@ footer {
   padding: 1rem;
   background-color: var(--terciary);
 }
+input {
+  line-height: 2rem;
+  border: none;
+  padding: 0.3rem;
+}
 /* TAGS */
 /* CLASSES */
 
@@ -124,6 +129,15 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 /* CLASSES */
 
