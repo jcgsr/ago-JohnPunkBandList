@@ -7,22 +7,16 @@ import { useFlexSearch } from "react-use-flexsearch";
 import Layout from "../components/Layout";
 import SearchBar from "../components/Search";
 
-const John = ({
-  bandData: {
-    localSearchBands: { index, store },
-  },
-}) => {
-  const { search } = window.location;
-  const query = new URLSearchParams(search).get("s");
-  const [searchQuery, setSearchQuery] = useState(query || "");
-  const results = useFlexSearch(searchQuery, index, store);
+const John = () => {
+  // const { search } = window.location;
+  // const query = new URLSearchParams(search).get("s");
+  // const [searchQuery, setSearchQuery] = useState(query || "");
+  // const results = useFlexSearch(searchQuery, index, store);
   return (
     <Layout>
       <main className="container">
         <h1>john's ultimate punk band list</h1>
-        <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-        <p>{searchQuery}</p>
-        {console.log(searchQuery)}
+        <SearchBar />
         <StaticQuery
           query={bandQuery}
           render={data => (

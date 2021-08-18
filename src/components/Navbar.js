@@ -16,7 +16,12 @@ function NavBar() {
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link exact to="/" activeClassName="active" className="nav-links">
+              <Link
+                exact
+                to="/historia"
+                activeClassName="active"
+                className="nav-links"
+              >
                 História do Punk
               </Link>
             </li>
@@ -27,17 +32,7 @@ function NavBar() {
                 activeClassName="active"
                 className="nav-links"
               >
-                Contatos
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-              >
-                Procurar Banda
+                Sobre Lebrão Johns
               </Link>
             </li>
           </ul>
