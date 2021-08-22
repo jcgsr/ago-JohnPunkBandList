@@ -28,11 +28,21 @@ function NavBar() {
             <li className="nav-item">
               <Link
                 exact
-                to="/blog"
+                to="/about"
                 activeClassName="active"
                 className="nav-links"
               >
                 Sobre Lebrão Johns
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                exact
+                to="/teste"
+                activeClassName="active"
+                className="nav-links"
+              >
+                Teste API Strapi
               </Link>
             </li>
           </ul>

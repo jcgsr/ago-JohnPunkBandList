@@ -38,7 +38,8 @@ body {
   font-family: "Special Elite", cursive;
 }
 h1,
-h2 {
+h2,
+h3 {
   text-transform: capitalize;
   margin-bottom: 1rem;
   text-shadow: var(--shadow-3);
@@ -98,7 +99,8 @@ input {
   min-height: 100vh;
 }
 
-.bands {
+.bands,
+.contatos {
   width: 80%;
   color: var(--terciary);
   text-align: center;
@@ -111,6 +113,16 @@ input {
 .bands p {
   max-width: 70%;
   margin: 1rem auto;
+}
+
+.contatos a {
+  color: var(--secodary);
+}
+
+.contatos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 767px) {
