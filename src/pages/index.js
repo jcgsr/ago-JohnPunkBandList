@@ -1,8 +1,8 @@
 // 14.08.2021 - lista de bandas punk de lebrão johns
 
 import React, { useState, useEffect } from "react";
-import { StaticQuery, graphql } from "gatsby";
-// import { GatsbyImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 
 import api from "../assets/services/api.js";
@@ -24,6 +24,22 @@ const John = () => {
     <Layout>
       <main className="container">
         <h1>john's ultimate punk band list</h1>
+        <section className="image">
+          <StaticImage
+            src="../assets/img/punk1.jpg"
+            alt="Foto de muro"
+            placeholder="blurred"
+            layout="constrained"
+          />
+          Foto de{" "}
+          <a href="https://unsplash.com/@diesektion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Robert Anasch
+          </a>{" "}
+          lá no{" "}
+          <a href="https://unsplash.com/s/photos/punk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Unsplash
+          </a>
+        </section>
         <form>
           <input
             type="text"
@@ -62,7 +78,15 @@ const John = () => {
               </div>
             </article>
           ))}
-        {searchBand !== bands && <h2>{searchBand}</h2>}
+        {searchBand !== bands && (
+          <section className="no-band">
+            <p>não está nesta lista!?</p>
+            <p>Deseja incluí-la?</p>
+            <h4>
+              Só entrar em <Link to="/about">contato</Link>{" "}
+            </h4>
+          </section>
+        )}
       </main>
     </Layout>
   );

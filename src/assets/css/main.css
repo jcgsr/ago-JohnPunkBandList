@@ -154,6 +154,16 @@ input {
   white-space: nowrap;
   width: 1px;
 }
+.error-page {
+  text-align: center;
+  padding: 4rem;
+}
+.error-page h3 {
+  margin-bottom: 4rem;
+}
+.image {
+  text-align: center;
+}
 /* CLASSES */
 
 /* NAVBAR  */
