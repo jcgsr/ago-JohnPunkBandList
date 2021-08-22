@@ -35,16 +35,6 @@ function NavBar() {
                 Sobre Lebrão Johns
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                exact
-                to="/teste"
-                activeClassName="active"
-                className="nav-links"
-              >
-                Teste API Strapi
-              </Link>
-            </li>
           </ul>
           <div className="nav-icon">
             <button onClick={() => setClick(!click)}>

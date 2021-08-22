@@ -7,6 +7,12 @@ import Layout from "../components/Layout";
 
 import api from "../assets/services/api.js";
 
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
+// minified version is also included
+// import 'react-toastify/dist/ReactToastify.min.css';
+
 const John = () => {
   const [searchBand, setSearchBand] = useState("");
   const [bands, setBands] = useState([]);
@@ -16,6 +22,9 @@ const John = () => {
       // console.log(response.data);
       setBands(response.data);
     };
+    toast.info(
+      "⚠️ Disclaimer: algumas bandas não são encontradas no Wikipédia ou não têm site oficial. Nesses casos, os links foram redirecionados para o site ofcial do Wikipédia ou para a página do Facebook/Instagram da banda respectivamente."
+    );
     loadBands();
   }, []);
   console.log(bands);
@@ -24,6 +33,18 @@ const John = () => {
     <Layout>
       <main className="container">
         <h1>john's ultimate punk band list</h1>
+        {/*<button onClick={notify}>Notify !</button>*/}
+        <ToastContainer
+          position="top-center"
+          autoClose={6000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
         <section className="image">
           <StaticImage
             src="../assets/img/punk1.jpg"
@@ -80,10 +101,11 @@ const John = () => {
           ))}
         {searchBand !== bands && (
           <section className="no-band">
+            <p>"{searchBand}"</p>
             <p>não está nesta lista!?</p>
             <p>Deseja incluí-la?</p>
             <h4>
-              Só entrar em <Link to="/about">contato</Link>{" "}
+              Só entrar em <Link to="/about">contato</Link>!{" "}
             </h4>
           </section>
         )}
