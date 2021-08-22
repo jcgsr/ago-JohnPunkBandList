@@ -23,7 +23,7 @@ const John = () => {
       setBands(response.data);
     };
     toast.info(
-      "⚠️ Disclaimer: algumas bandas não são encontradas no Wikipédia ou não têm site oficial. Nesses casos, os links foram redirecionados para o site ofcial do Wikipédia ou para a página do Facebook/Instagram da banda respectivamente."
+      "⚠️ Disclaimer: algumas bandas não foram encontradas no Wikipédia ou não têm site oficial. Nesses casos, os links foram redirecionados para o site ofcial do Wikipédia ou para a página do Facebook/Instagram da banda respectivamente."
     );
     loadBands();
   }, []);
@@ -35,7 +35,7 @@ const John = () => {
         <h1>john's ultimate punk band list</h1>
         {/*<button onClick={notify}>Notify !</button>*/}
         <ToastContainer
-          position="top-center"
+          position="bottom-center"
           autoClose={6000}
           hideProgressBar={false}
           newestOnTop={false}
@@ -113,33 +113,5 @@ const John = () => {
     </Layout>
   );
 };
-
-// const bandQuery = graphql`
-//   {
-//     localSearchBands {
-//       index
-//       store
-//       publicIndexURL
-//       publicStoreURL
-//     }
-//     allStrapiBand {
-//       nodes {
-//         band_img {
-//           localFile {
-//             childImageSharp {
-//               gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
-//             }
-//           }
-//         }
-//         band_name
-//         youtube
-//         wikipedia
-//         band_site
-//         id
-//         band_desc
-//       }
-//     }
-//   }
-// `;
 
 export default John;

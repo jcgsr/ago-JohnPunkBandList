@@ -85,6 +85,7 @@ input {
   border: none;
   padding: 0.3rem;
 }
+
 /* TAGS */
 /* CLASSES */
 
@@ -163,6 +164,11 @@ input {
 }
 .image {
   text-align: center;
+}
+@media screen and (max-width: 456px) {
+  article img {
+    max-width: 80%;
+  }
 }
 /* CLASSES */
 
