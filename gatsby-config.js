@@ -30,5 +30,14 @@ module.exports = {
         path: `${__dirname}/src`,
       },
     },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: `grey`,
+        // Disable the loading spinner.
+        showSpinner: false,
+      },
+    },
   ],
 };
