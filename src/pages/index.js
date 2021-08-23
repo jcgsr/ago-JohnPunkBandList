@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+import { StaticImage, GatsbyImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 
 import api from "../assets/services/api.js";
@@ -36,7 +36,7 @@ const John = () => {
         {/*<button onClick={notify}>Notify !</button>*/}
         <ToastContainer
           position="bottom-center"
-          autoClose={6000}
+          autoClose={1000}
           hideProgressBar={false}
           newestOnTop={false}
           closeOnClick
@@ -85,6 +85,7 @@ const John = () => {
             <article className="bands" key={band.id}>
               <h2>{band.band_name}</h2>
               <img src={band.band_img.name} alt={band.band_name} />
+              {console.log(band.band_img)}
               <p>{band.band_desc}</p>
               <div className="btns">
                 <a href={band.band_site} target="_blank">
