@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:1337/bands",
+  baseURL: "https://john-strapi.herokuapp.com/bands",
 });
 
 export default api;

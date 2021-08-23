@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "John's Ultimate Punk Bands List",
     description: "Site que reúne as bandas prediletas de Lebrão Johns",
-    siteUrl: "https://www.englisheasyfm.com.br",
+    siteUrl: "https://lebraojohns.netlify.app",
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `http://localhost:1337`,
+        apiURL: `https://john-strapi.herokuapp.com`,
         queryLimit: 1000, // Defaults to 100
         collectionTypes: [`band`],
       },
