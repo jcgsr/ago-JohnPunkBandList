@@ -18,22 +18,31 @@ import "react-toastify/dist/ReactToastify.css";
 const John = () => {
   const [searchBand, setSearchBand] = useState("");
   const [bands, setBands] = useState([]);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     const loadBands = async () => {
       const response = await api.get();
-      // console.log(response.data);
       setBands(response.data);
+      setLoading(false);
     };
     toast.info(
       "⚠️ Disclaimer: algumas bandas não foram encontradas no Wikipédia ou não têm site oficial. Nesses casos, os links foram redirecionados para o site ofcial do Wikipédia ou para a página do Facebook/Instagram da banda respectivamente."
     );
     loadBands();
   }, []);
-  console.log(bands);
-
+  if (loading) {
+    return (
+      <div>
+        <h2 style={{ textAlign: "center", margin: "2rem" }}>
+          Carregando Bandas...
+        </h2>
+      </div>
+    );
+  }
   return (
     <Layout>
-      <Seo title="Home" description="LebraoJohns Ultimate Punk Band List" />
+      <Seo title="Home" description="LebraoJohns's Ultimate Punk Band List" />
       <main className="container">
         <h1>LebraoJohns's ultimate punk band list</h1>
         {/*<button onClick={notify}>Notify !</button>*/}
