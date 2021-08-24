@@ -8,13 +8,17 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "John's Ultimate Punk Bands List",
+    titleTemplate: "%s | LebraoJohns",
     description: "Site que reúne as bandas prediletas de Lebrão Johns",
-    siteUrl: "https://lebraojohns.netlify.app",
+    url: "https://lebraojohns.netlify.app",
+    image: "/images/punk3.png",
+    twitterUsername: "@John_Gordo85",
   },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-strapi`,
       options: {

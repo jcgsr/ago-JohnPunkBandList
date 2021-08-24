@@ -5,6 +5,8 @@ import { Link } from "gatsby";
 import { StaticImage, GatsbyImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 
+import Seo from "../components/Seo";
+
 import api from "../assets/services/api.js";
 
 import { ToastContainer, toast } from "react-toastify";
@@ -31,6 +33,7 @@ const John = () => {
 
   return (
     <Layout>
+      <Seo title="Home" description="LebraoJohns Ultimate Punk Band List" />
       <main className="container">
         <h1>john's ultimate punk band list</h1>
         {/*<button onClick={notify}>Notify !</button>*/}
