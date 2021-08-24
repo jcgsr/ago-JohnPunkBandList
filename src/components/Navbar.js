@@ -11,7 +11,7 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
-            John
+            LebraoJohns
           </Link>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>

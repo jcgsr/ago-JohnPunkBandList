@@ -35,7 +35,7 @@ const John = () => {
     <Layout>
       <Seo title="Home" description="LebraoJohns Ultimate Punk Band List" />
       <main className="container">
-        <h1>john's ultimate punk band list</h1>
+        <h1>LebraoJohns's ultimate punk band list</h1>
         {/*<button onClick={notify}>Notify !</button>*/}
         <ToastContainer
           position="bottom-center"
