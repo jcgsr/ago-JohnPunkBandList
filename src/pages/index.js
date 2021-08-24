@@ -88,6 +88,7 @@ const John = () => {
                 src={band.band_img.formats.thumbnail.url}
                 alt={band.band_name}
               />
+              {console.log(band.band_img)}
               <p>{band.band_desc}</p>
               <div className="btns">
                 <a href={band.band_site} target="_blank">
