@@ -33,10 +33,15 @@ const John = () => {
   }, []);
   if (loading) {
     return (
-      <div>
-        <h2 style={{ textAlign: "center", margin: "2rem" }}>
-          Carregando Bandas...
-        </h2>
+      <div style={{ textAlign: "center", margin: "2rem" }}>
+        <h2>Carregando Bandas...</h2>
+        <StaticImage
+          src="../assets/img/punk3.png"
+          alt="A - Anarquia"
+          placeholder="blurred"
+          layout="constrained"
+          width="200px"
+        />
       </div>
     );
   }
