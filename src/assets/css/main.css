@@ -140,6 +140,11 @@ input {
     margin-bottom: 0.8rem;
     width: 50%;
   }
+  .btns iframe {
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+  }
 }
 .btns {
   display: flex;

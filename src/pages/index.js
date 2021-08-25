@@ -20,6 +20,9 @@ const John = () => {
   const [bands, setBands] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  {
+    const spotify = "https://open.spotify.com/embed/track/";
+  }
   useEffect(() => {
     const loadBands = async () => {
       const response = await api.get();
@@ -108,9 +111,14 @@ const John = () => {
               {console.log(band.band_img)}
               <p>{band.band_desc}</p>
               <div className="btns">
-                <a href={band.band_site} target="_blank">
-                  <button>site oficial</button>
-                </a>
+                <iframe
+                  src={`https://open.spotify.com/embed/track/${band.band_site}`}
+                  width="50%"
+                  height="80"
+                  frameBorder="0"
+                  allowtransparency="true"
+                  allow="encrypted-media"
+                />
                 <a href={band.youtube} target="_blank">
                   <button>youtube</button>
                 </a>
