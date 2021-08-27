@@ -30,7 +30,7 @@ const John = () => {
       setLoading(false);
     };
     toast.info(
-      "⚠️ Disclaimer: algumas bandas não foram encontradas no Wikipédia ou não têm site oficial. Nesses casos, os links foram redirecionados para o site ofcial do Wikipédia ou para a página do Facebook/Instagram da banda respectivamente."
+      "⚠️ Disclaimer: algumas bandas não são encontradas no Wikipédia. Nesses casos, os links são redirecionados para algum site sobre a banda."
     );
     loadBands();
   }, []);

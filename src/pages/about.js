@@ -15,6 +15,12 @@ const About = () => {
         description="Biografia de LebraoJohns e formas de entrar em contato com ele."
       />
       <h1>Sobre</h1>
+      <article className="bands">
+        Gordinho simpático oriundo de Laranjeiras/SE, punk nutella, capoeirista
+        aleijado, Verdão alucinado, enxadrista, professor de Educação Física nos
+        municípios de Laranjeiras e de Lagarto. Antifascista sempre!
+      </article>
+
       <h3>Contatos</h3>
       <section className="contatos">
         <button>
