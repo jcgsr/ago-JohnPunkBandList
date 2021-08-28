@@ -52,7 +52,7 @@ const John = () => {
     <Layout>
       <Seo title="Home" description="LebraoJohns's Ultimate Punk Band List" />
       <main className="container">
-        <h1>LebraoJohns's ultimate punk band list</h1>
+        <h1>lista de bandas punk de john</h1>
         {/*<button onClick={notify}>Notify !</button>*/}
         <ToastContainer
           position="bottom-center"
