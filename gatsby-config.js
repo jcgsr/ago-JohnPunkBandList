@@ -10,7 +10,7 @@ module.exports = {
     title: "PunkCore",
     titleTemplate: "%s | PunkCore",
     description: "Site que reúne as bandas prediletas de John",
-    url: "https://lebraojohns.netlify.app",
+    url: "https://punkcore.com.br",
     image: "/images/punk3.png",
     twitterUsername: "@John_Gordo85",
   },

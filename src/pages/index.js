@@ -65,6 +65,15 @@ const John = () => {
           draggable
           pauseOnHover
         />
+        <section style={{ width: "70%", margin: "0 auto" }}>
+          <q>
+            O Punk Rock é um estilo de vida para quem curte música e liberdade,
+            letras que mostram lutas contra as injustiças através de gritos
+            marcantes, guitarras distorcidas, baixos pesados e baterias
+            violentas, que incomodam muita gente.
+          </q>
+          <p style={{ textAlign: "right", marginRight: "2rem" }}>-John</p>
+        </section>
         <section className="image">
           <StaticImage
             src="../assets/img/punk1.jpg"
