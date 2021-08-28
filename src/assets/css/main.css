@@ -175,6 +175,28 @@ input {
     max-width: 80%;
   }
 }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+  /* margin: 0 auto; */
+}
+
+.galeria img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 456px) {
+  .galeria {
+    margin: 0 auto;
+  }
+  .galeria img {
+    width: 100%;
+  }
+}
 /* CLASSES */
 
 /* NAVBAR  */

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
 
+import punkcore from "../assets/img/PunkCore.svg";
+
 import { TiThMenu, TiTimes } from "react-icons/ti";
 
 function NavBar() {
@@ -11,7 +13,11 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
-            LebraoJohns
+            <img
+              src={punkcore}
+              alt="PunkCore Logo"
+              style={{ height: "1.4rem" }}
+            />
           </Link>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -32,7 +38,17 @@ function NavBar() {
                 activeClassName="active"
                 className="nav-links"
               >
-                Sobre Lebrão Johns
+                Sobre John
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                exact
+                to="/galeria"
+                activeClassName="active"
+                className="nav-links"
+              >
+                Galeria
               </Link>
             </li>
           </ul>

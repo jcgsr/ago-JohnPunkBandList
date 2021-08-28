@@ -7,9 +7,9 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "John's Ultimate Punk Bands List",
-    titleTemplate: "%s | LebraoJohns",
-    description: "Site que reúne as bandas prediletas de Lebrão Johns",
+    title: "PunkCore",
+    titleTemplate: "%s | PunkCore",
+    description: "Site que reúne as bandas prediletas de John",
     url: "https://lebraojohns.netlify.app",
     image: "/images/punk3.png",
     twitterUsername: "@John_Gordo85",
