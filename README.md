@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/aaa28274-bbf7-40a8-b514-54c97abce48b/deploy-status)](https://app.netlify.com/sites/lebraojohns/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f9a25b41-06a5-4046-985e-38342d2ec286/deploy-status)](https://app.netlify.com/sites/silly-nobel-04da63/deploys)
 [![GitHub issues](https://img.shields.io/github/issues/jcgsr/ago-JohnPunkBandsList)](https://github.com/jcgsr/ago-JohnPunkBandsList/issues)
 [![GitHub forks](https://img.shields.io/github/forks/jcgsr/ago-JohnPunkBandsList)](https://github.com/jcgsr/ago-JohnPunkBandsList/network)
 [![GitHub stars](https://img.shields.io/github/stars/jcgsr/ago-JohnPunkBandsList)](https://github.com/jcgsr/ago-JohnPunkBandsList/stargazers)
@@ -18,13 +18,10 @@
 Site que reúne as bandas prediletas de LebraoJohns. Feito em Gatsby,
 imagens hospedadas no Cloudinary e API do Strapi através do Heroku.
 
-
 ## Preview
-
 
 Veja o projeto [aqui](https://lebraojohns.netlify.app):
 
 ## License
-
 
 [MIT](https://choosealicense.com/licenses/mit/)
