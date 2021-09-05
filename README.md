@@ -7,15 +7,15 @@
 [![GitHub license](https://img.shields.io/github/license/jcgsr/ago-JohnPunkBandsList)](https://github.com/jcgsr/ago-JohnPunkBandsList/blob/main/LICENSE)
 
 <p align="center">
-  <a href="https://lebraojohns.netlify.app">
-    <img alt="LebraoJohns" src="https://lebraojohns.netlify.app/static/3a039d1681c5525ac3d32c81c4f1cf4b/7674e/punk1.webp" width="60" />
+  <a href="https://punkcore.com.br">
+    <img alt="PunkCore" src="https://punkcore.com.br/static/3a039d1681c5525ac3d32c81c4f1cf4b/7674e/punk1.webp" width="60" />
   </a>
 </p>
 <h1 align="center">
- Site de LebraoJohns.
+ PunkCore
 </h1>
 
-Site que reúne as bandas prediletas de LebraoJohns. Feito em Gatsby,
+Site que reúne as bandas punk prediletas de LebraoJohns. Feito em Gatsby,
 imagens hospedadas no Cloudinary e API do Strapi através do Heroku.
 
 ## Preview
