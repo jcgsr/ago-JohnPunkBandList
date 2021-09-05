@@ -20,7 +20,7 @@ imagens hospedadas no Cloudinary e API do Strapi através do Heroku.
 
 ## Preview
 
-Veja o projeto [aqui](https://lebraojohns.netlify.app):
+Veja o projeto [aqui](https://punkcore.com.br):
 
 ## License
 
