@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://punkcore.com.br">
-    <img alt="PunkCore" src="https://punkcore.com.br/static/3a039d1681c5525ac3d32c81c4f1cf4b/7674e/punk1.webp" width="60" />
+    <img alt="PunkCore" src="https://punkcore.com.br/static/3a039d1681c5525ac3d32c81c4f1cf4b/7674e/punk1.webp" width="200" />
   </a>
 </p>
 <h1 align="center">
