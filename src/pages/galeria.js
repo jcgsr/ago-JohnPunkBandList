@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const Galeria = () => {
   return (
     <Layout>
-      <Seo title="Galeia" description="Fotos de John." />
+      <Seo title="Galeria" description="Fotos de John." />
       <h1>Galeria</h1>
       <main className="container">
         <div className="galeria">

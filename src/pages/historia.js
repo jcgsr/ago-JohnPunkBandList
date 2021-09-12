@@ -30,6 +30,56 @@ const Historia = () => {
             Unsplash
           </a>
         </section>
+        <section className="amazon">
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=8537006793&asins=8537006793&linkId=ceaff8aa98e83bdc6f9f5455656abb7b&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=B08GNZPX7Y&asins=B08GNZPX7Y&linkId=185d6f34877ba0f243dfc91d2f7c64e9&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=0802125360&asins=0802125360&linkId=448ca8551ebe26bead735626cff34fbc&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=B0925N6X1Q&asins=B0925N6X1Q&linkId=91671528de0f164e25af169e3833fe95&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=B087N2DZFQ&asins=B087N2DZFQ&linkId=a13b3f51bde0850b9cb1951d56111ca7&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=B08KSK55F6&asins=B08KSK55F6&linkId=63159a4fb445a57f78ed150994cbaee9&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+        </section>
         <article className="bands">
           <p>
             Surgido na década de 1970 nos Estados Unidos e na Inglaterra, o
@@ -244,6 +294,56 @@ const Historia = () => {
             </p>
           </section>
         </article>
+        <section className="amazon">
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=B00P03D4D2&asins=B00P03D4D2&linkId=1b164bc6253010501c495316648b7b96&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=B08678K32Z&asins=B08678K32Z&linkId=a25faab1ba127c0bba2856102db2073f&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=B07PDHSJ1H&asins=B07PDHSJ1H&linkId=b52a6a88e299f49ec5db4fef60ed963e&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=B0821ND27F&asins=B0821ND27F&linkId=64ad1dfb587ac003bbb21bc630914485&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=B08B342DPL&asins=B08B342DPL&linkId=eb837c131cdb8330f6a358e0af64687c&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+          <iframe
+            style={{ width: "120px", height: "240px", margin: "0 auto" }}
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            frameborder="0"
+            src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=jcgsr-20&marketplace=amazon&amp;region=BR&placement=B08F5HF7FT&asins=B08F5HF7FT&linkId=2230530c88687ec94d2c1064fe855095&show_border=true&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=eae4ed"
+          ></iframe>
+        </section>
       </main>
     </Layout>
   );

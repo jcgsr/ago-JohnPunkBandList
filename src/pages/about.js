@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../components/Layout";
 
+import Comments from "../components/Comments";
+
 import { FiInstagram, FiFacebook, FiTwitter } from "react-icons/fi";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -14,7 +16,7 @@ const About = () => {
     <Layout>
       <Seo
         title="Sobre"
-        description="Biografia de LebraoJohns e formas de entrar em contato com ele."
+        description="Biografia de John, entrar em contato com ele ou deixar algum comentário."
       />
 
       <main className="container">
@@ -100,6 +102,21 @@ const About = () => {
             <FaTelegramPlane />
           </a>
         </button>
+      </section>
+      <section id="playlist">
+        <h3>Minha Playlist, Cabrón! Vê se tu aguenta!</h3>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/6b7Yg98EdfSwvolG0jndyk"
+          width="100%"
+          height="80"
+          frameBorder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </section>
+      <section id="comments">
+        <h3>Comentários</h3>
+        <Comments />
       </section>
     </Layout>
   );

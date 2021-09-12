@@ -105,7 +105,7 @@ input {
   width: 80%;
   color: var(--terciary);
   text-align: center;
-  margin: 1rem auto;
+  margin: 2rem auto;
   padding: 1rem;
   background-color: var(--secondary);
   box-shadow: var(--shadow-1);
@@ -197,6 +197,14 @@ input {
     width: 100%;
   }
 }
+.amazon {
+  display: flex;
+  /*display: grid;*/
+  /*grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));*/
+  /*gap: 1rem;*/
+  flex-wrap: wrap;
+}
+
 /* CLASSES */
 
 /* NAVBAR  */
@@ -336,4 +344,10 @@ input {
   color: yellow;
 }
 
+#comments h3 {
+  margin-top: 1rem;
+}
+#playlist {
+  margin: 5rem;
+}
 /* IDS */
